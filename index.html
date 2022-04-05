@@ -190,8 +190,13 @@ const updateFullscreenIcon = () => {
 }
 const start = () => {
     // register service worker
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('serviceWorker.min.js');
+    if (navigator.serviceWorker.controller) {
+		 console.log("Active service worker found");
+		 } else {
+	 navigator.serviceWorker
+	         .register("serviceWorker.js", {
+	         scope: "./"
+	         })
     }
 
     window.addEventListener('resize', resizeCanvas, false);
