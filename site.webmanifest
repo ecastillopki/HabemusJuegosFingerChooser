@@ -1,7 +1,6 @@
 {
     "name": "Habemus Juegos",
     "short_name": "Habemus",
-	"start_url": "https://app.habemusjuegos.com",
     "icons": [
         {
             "src": "./regular.png",
@@ -20,6 +19,7 @@
             "type": "image/png"
         }
     ],
+	"start_url": "/",
     "theme_color": "#332f35",
     "background_color": "#332f35",
     "display": "standalone"
