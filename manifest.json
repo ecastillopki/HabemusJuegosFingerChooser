@@ -1,0 +1,26 @@
+{
+  "name": "Habemus Juegos",
+  "short_name": "Habemus",
+  "icons": [
+    {
+      "src": "images/196x196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    },
+    {
+      "src": "images/196x196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/1024x1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "theme_color": "#332f35",
+  "background_color": "#332f35",
+  "display": "standalone"
+}
