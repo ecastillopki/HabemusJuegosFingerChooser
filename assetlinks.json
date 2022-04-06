@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "com.habemusjuegos.app",
+                     "sha256_cert_fingerprints": ["9D:DE:62:EC:42:F0:9B:14:17:FD:4E:1E:0F:41:EB:6A:34:8F:E8:B9:6C:08:AB:0E:D2:C9:79:1E:B3:0C:26:80"] }
+      }
+]
