@@ -75,12 +75,6 @@ input[type=checkbox] + label {
 #toggle-help:checked + label{
     background: url(./img/help-checked.svg) no-repeat center;
 }
-#toggle-fullscreen + label{
-    background: url(./img/fullscreen-unchecked.svg) no-repeat center;
-}
-#toggle-fullscreen:checked + label{
-    background: url(./img/fullscreen-checked.svg) no-repeat center;
-}
 
 #radio-selectNumber label {
     padding: 4px 10px;
@@ -144,7 +138,7 @@ input[type=checkbox] + label {
 }
 #footerGrid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     justify-content: space-around;
     align-items: center;
@@ -190,9 +184,6 @@ dd {
 #helpContainer>ul>li[data-type="help"]{
     background-image:url(img/help-unchecked.svg);
 }
-#helpContainer>ul>li[data-type="fullscreen"]{
-    background-image:url(img/fullscreen-unchecked.svg);
-}
 
 #helpContainer {
     top: 50%;
@@ -213,9 +204,7 @@ dd {
 #toggle-help {
     grid-column: 2;
 }
-#toggle-fullscreen {
-    grid-column: 3;
-}
+
 #toggle-vibration {
     grid-column: 1;
 }
